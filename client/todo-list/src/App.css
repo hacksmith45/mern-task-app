@@ -1,0 +1,95 @@
+body{
+   background: rgb(172, 207, 219);
+}
+
+.form{
+  display: flex;
+  width: 100%;
+}
+
+.add-item{
+  width: 800px;
+}
+
+.add-btn{
+  margin-left: 9px;
+  width: 113px;
+  height: 47px;
+}
+
+.list-group{
+   margin-top: 35px;
+   display: flex;
+   flex-direction: column;
+}
+
+.group-item{
+  display: flex;
+
+}
+
+.update-item{
+   border: none;
+}
+
+.delete-item{
+   border: none;
+}
+
+.update-form{
+  display: flex;
+  gap:12px;
+}
+
+.update-new-input{
+   height: 45px;
+}
+
+.update-new-btn{
+  
+  background:rgb(18, 160, 18);
+}
+
+.update-new-btn:hover{
+   background:rgb(11, 133, 11) ;
+}
+
+
+@media screen and (max-width:600px) {
+     .add-btn{
+       width: 140px;
+     }
+     .update-new-input{
+       width: 320px;
+     }
+   
+}
+
+
+@media only screen and (min-width: 600px) {
+     
+    .update-new-input{
+       width:360px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .update-new-input{
+       width: 493px;
+    }
+} 
+
+
+@media only screen and (min-width: 992px) {
+    .update-new-input{
+        width: 730px;
+    }
+} 
+
+
+@media only screen and (min-width: 1200px) {
+    .update-new-input{
+        width: 910px;
+    }
+}
